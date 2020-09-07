@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT US</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/5396032ae4.js" crossorigin="anonymous"></script>
+
+    <!-- photoswipe -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/photoswipe.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.0/default-skin/default-skin.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe.min.js" integrity="sha512-2R4VJGamBudpzC1NTaSkusXP7QkiUYvEKhpJAxeVCqLDsgW4OqtzorZGpulE3eEA7p++U0ZYmqBwO3m+R2hRjA==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.3/photoswipe-ui-default.min.js" integrity="sha512-SxO0cwfxj/QhgX1SgpmUr0U2l5304ezGVhc0AO2YwOQ/C8O67ynyTorMKGjVv1fJnPQgjdxRz6x70MY9r0sKtQ==" crossorigin="anonymous"></script>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/photography.css">
+
+    <!-- my JavaScript -->
+    <script src="js/photography.js"></script>
+
+</head>
+
+<body>
+    <!-- nav -->
+    <header>
+        <div id="myNav" class="overlay">
+            <a class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="index.html"><i class="far fa-calendar-alt"></i>倒數計時</a>
+                <a href="ourstory.html"><i class="far fa-heart"></i>關於我們</a>
+                <a href="MD.html"><i class="far fa-images"></i>婚紗照片</a>
+                <a href="survey.html"><i class="far fa-edit"></i>我要出席</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- header -->
+    <div class="myContainer">
+        <div id="burger" onclick="openNav()">
+            <div class="hamline" id="line1"></div>
+            <div class="hamline" id="line2"></div>
+            <div class="hamline" id="line3"></div>
+        </div>
+        <div class="header">
+            <h2 class="headerTitle">婚紗照片</h2>
+        </div>
+    </div>
+
+    <!-- subnav -->
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link" href="studio.html">白紗系列</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="MD.html">重返校園</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="village.html">回憶中興</a>
+        </li>
+    </ul>
+
+    <!-- 明道 -->
+    <div class="contanier">
+        <div class="row m-0">
+            <div id="gallery" itemscope itemtype="http://schema.org/ImageGallery">
+                <!-- first line -->
+                <figure class="twopics">
+                    <a href="img/photography/MD/m61.jpg" data-width="800" data-height="533" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m61.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure class="twopics">
+                    <a href="img/photography/MD/m62.jpg" data-width="800" data-height="533" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m62.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+
+                <!-- seconds line -->
+                <figure>
+                    <a href="img/photography/MD/m53.jpg" data-width="533" data-height="800" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m53.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/photography/MD/m54.jpg" data-width="533" data-height="800" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m54.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/photography/MD/m52.jpg" data-width="533" data-height="800" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m52.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/photography/MD/m11.jpg" data-width="533" data-height="800" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m11.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+
+                <!-- third line -->
+                <figure class="twopics">
+                    <a href="img/photography/MD/m31.jpg" data-width="800" data-height="533" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m31.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure class="twopics">
+                    <a href="img/photography/MD/m32.jpg" data-width="800" data-height="533" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m32.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+
+                <!-- forth line -->
+                <figure>
+                    <a href="img/photography/MD/m13.jpg" data-width="533" data-height="800" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m13.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/photography/MD/m12.jpg" data-width="533" data-height="800" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m12.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/photography/MD/m14.jpg" data-width="533" data-height="800" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m14.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure>
+                    <a href="img/photography/MD/m51.jpg" data-width="533" data-height="800" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m51.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+
+                <!-- fifth line -->
+                <figure class="twopics">
+                    <a href="img/photography/MD/m22.jpg" data-width="800" data-height="533" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m22.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure class="twopics">
+                    <a href="img/photography/MD/m21.jpg" data-width="800" data-height="533" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m21.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+
+                <!-- sixth line -->
+                <figure class="twopics">
+                    <a href="img/photography/MD/m41.jpg" data-width="800" data-height="533" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m41.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+                <figure class="twopics">
+                    <a href="img/photography/MD/m42.jpg" data-width="800" data-height="533" class="pics" itemprop="contentUrl">
+                        <img src="img/photography/MD/m42.jpg" itemprop="thumbnail" alt="Image description">
+                    </a>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="text-center mt-5">
+            © 2020 YVETTE
+        </p>
+    </footer>
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Background of PhotoSwipe. 
+           It's a separate element as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides. 
+              PhotoSwipe keeps only 3 of them in the DOM to save memory.
+              Don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+      </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+      </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function($) {
+
+            // Init empty gallery array
+            var container = [];
+
+            // Loop over gallery items and push it to the array
+            $('#gallery').find('figure').each(function() {
+                var $link = $(this).find('.pics'),
+                    item = {
+                        src: $link.attr('href'),
+                        w: $link.data('width'),
+                        h: $link.data('height'),
+                        title: $link.data('caption')
+                    };
+                container.push(item);
+            });
+
+            // Define click event on gallery item
+            $('.pics').click(function(event) {
+
+                // Prevent location change
+                event.preventDefault();
+
+                // Define object and gallery options
+                var $pswp = $('.pswp')[0],
+                    options = {
+                        index: $(this).parent('figure').index(),
+                        bgOpacity: 0.85,
+                        showHideOpacity: true
+                    };
+
+                // Initialize PhotoSwipe
+                var gallery = new PhotoSwipe($pswp, PhotoSwipeUI_Default, container, options);
+                gallery.init();
+            });
+
+        }(jQuery));
+    </script>
+</body>
+
+</html>

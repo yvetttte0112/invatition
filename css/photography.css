@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@362&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+body {
+    background-color: #c0c2c2;
+}
+
+
+/* nav */
+
+.overlay {
+    /* background of nav */
+    position: fixed;
+    display: none;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100vw;
+}
+
+.overlay-content {
+    /* content of nav */
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.5vw;
+    line-height: 8vh;
+    top: 30%;
+}
+
+.overlay a {
+    /* text of nav */
+    display: block;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #818181!important;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1!important;
+}
+
+.overlay .closebtn {
+    /* closebtn of nav */
+    cursor: pointer;
+    position: absolute;
+    font-size: 35px;
+    top: 2.4%;
+    right: 5%;
+}
+
+#burger {
+    cursor: pointer;
+    top: 4%;
+    right: 6.5%;
+    position: fixed;
+    z-index: 1;
+}
+
+.hamline {
+    background-color: white;
+    height: 2px;
+    width: 24px;
+    margin-top: 7px;
+}
+
+.myContainer {
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+}
+
+.myContainer:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.headerTitle {
+    color: #fff;
+    font-size: 46px;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* tab */
+
+li a {
+    color: #eaeaea;
+    padding: 1px!important;
+    margin: 5vw 3vw 3vw 3vw;
+}
+
+li a:hover,
+.nav-link.active {
+    color: #434343;
+    border-bottom: 3px solid #434343d6;
+}
+
+#gallery {
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+figure {
+    margin: 0;
+    display: inline-block;
+    width: 25%;
+    float: left;
+}
+
+img {
+    width: 100%;
+}
+
+.twopics {
+    margin: 0;
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+footer {
+    font-family: 'Roboto Mono', monospace;
+}

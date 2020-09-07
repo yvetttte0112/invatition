@@ -1,0 +1,69 @@
+body {
+    background-color: #c0c2c2;
+}
+
+
+/* nav */
+
+.overlay {
+    /* background of nav */
+    position: fixed;
+    display: none;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100vh;
+    width: 100vw;
+}
+
+.overlay-content {
+    /* content of nav */
+    position: relative;
+    text-align: center;
+    letter-spacing: 0.5vw;
+    line-height: 8vh;
+    top: 30%;
+}
+
+.overlay a {
+    /* text of nav */
+    display: block;
+    text-decoration: none;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #818181!important;
+    font-size: 24px;
+    transition: 0.3s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1!important;
+}
+
+.overlay .closebtn {
+    /* closebtn of nav */
+    cursor: pointer;
+    position: absolute;
+    font-size: 35px;
+    top: 2.4%;
+    right: 5%;
+}
+
+#burger {
+    /* nav */
+    cursor: pointer;
+    position: absolute;
+    top: 4%;
+    right: 6.5%;
+}
+
+.hamline {
+    background-color: white;
+    height: 2px;
+    width: 24px;
+    margin-top: 7px;
+}
+
+iframe {
+    margin-top: 80px;
+    height: 100vh;
+}
