@@ -74,7 +74,7 @@
 /* countdown */
 
 #timer {
-    transform: translateY(73vh);
+    transform: translateY(70vh);
     /* 前往現場 */
     font-family: 'Roboto Mono', monospace;
     font-size: 3vh;
@@ -90,4 +90,9 @@
 
 .animate__animated.animate__fadeIn {
     --animate-duration: 3s;
+}
+
+#timer td,
+#timer th {
+    padding: 0%!important;
 }
