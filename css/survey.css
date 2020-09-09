@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@362&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
 body {
     background-color: #c0c2c2;
 }
@@ -22,6 +24,10 @@ body {
     letter-spacing: 0.5vw;
     line-height: 8vh;
     top: 30%;
+}
+
+.overlay-content svg {
+    margin-right: 10px;
 }
 
 .overlay a {

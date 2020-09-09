@@ -20,6 +20,10 @@
     top: 30%;
 }
 
+.overlay-content svg {
+    margin-right: 10px;
+}
+
 .overlay a {
     display: block;
     text-decoration: none;
