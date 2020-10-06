@@ -119,6 +119,13 @@ li a:hover,
     margin-right: 10vw;
 }
 
+@media only screen and (max-width: 767px) {
+    #gallery {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
 figure {
     margin: 0;
     display: inline-block;
